@@ -1,3 +1,11 @@
+---
+type: Indice
+title: Architettura
+description: Componenti del sistema e flusso RAG. Bozza per orientare le scelte; non è ancora un'implementazione.
+tags: [architettura, rag, self-hosting]
+timestamp: 2026-06-18T00:00:00Z
+---
+
 # Architettura
 
 Bozza di architettura per Italian-OSS-Legal-Platform. In questa fase serve a orientare le scelte; non è ancora un'implementazione.
@@ -23,36 +31,20 @@ Bozza di architettura per Italian-OSS-Legal-Platform. In questa fase serve a ori
                      │
         ┌────────────▼─────────────┐
         │ Indice normativo          │  ◄── pipeline di ingest
-        │ (chunk + metadati ELI)    │      (vedi modello-dati.md)
+        │ (chunk + metadati ELI)    │      (vedi /modello-dati/pipeline-trasformazione.md)
         └───────────────────────────┘
 
    LLM (provider configurabile) ──► generazione risposte con citazioni
 ```
 
-## Componenti
+## Concetti
 
-**Frontend (Next.js / TypeScript)**
-Interfaccia di chat, ricerca, caricamento e visualizzazione documenti con citazioni cliccabili che rimandano alla fonte (ELI/Normattiva).
-
-**Backend / API (Node / TypeScript)**
-Orchestrazione del flusso RAG (retrieval → costruzione contesto → generazione), gestione utenti, gestione documenti caricati.
-
-**Indice normativo + Vector DB**
-PostgreSQL con `pgvector` per ricerca semantica e query strutturate sui metadati (filtri per tipo di atto, vigenza, ecc.). Alimentato dalla pipeline di ingest.
-
-**Object storage (S3-compatibile: MinIO)**
-Conserva i documenti caricati dagli utenti e gli artefatti di ingest. Si usa [MinIO](https://min.io/), object storage open source compatibile con l'API S3, eseguito in self-hosting tramite Docker Compose insieme al resto dello stack.
-
-**Provider LLM (configurabile)**
-Almeno un provider a scelta; obiettivo di lungo periodo: supportare modelli locali/self-hosted per privacy e sovranità dei dati.
-
-## Flusso di una domanda (RAG)
-
-1. L'utente pone una domanda in linguaggio naturale.
-2. Il backend recupera i `Chunk` più rilevanti dall'indice (ricerca semantica + filtri).
-3. Costruisce un contesto con i testi normativi e i relativi metadati di citazione.
-4. L'LLM genera la risposta **citando** articolo, comma e fonte (ELI).
-5. Il frontend mostra la risposta con i link verificabili alle fonti.
+- [Frontend (Next.js)](/architettura/frontend.md)
+- [Backend / API (Node)](/architettura/backend-api.md)
+- [Indice normativo + Vector DB](/architettura/indice-normativo.md)
+- [Object storage (S3-compatibile)](/architettura/object-storage.md)
+- [Provider LLM (configurabile)](/architettura/provider-llm.md)
+- [Flusso di una domanda (RAG)](/architettura/flusso-rag.md)
 
 ## Principi architetturali
 

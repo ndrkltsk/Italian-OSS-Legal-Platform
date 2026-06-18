@@ -75,12 +75,12 @@ Il progetto è agli inizi e i contributi sono benvenuti: pipeline dati, parsing 
 
 ## Documentazione
 
-La knowledge base del progetto è in [`docs/`](docs/):
+La knowledge base del progetto è in [`knowledge/`](knowledge/), strutturata come bundle **[Open Knowledge Format (OKF) v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)**: una directory di file Markdown con frontmatter YAML, dove ogni concetto (fonte, entità, componente, termine) è un documento autonomo e collegabile, leggibile sia da persone sia da agenti AI.
 
-- [Fonti dei dati](docs/fonti-dati.md) — fonti normative, formati e licenze di riuso.
-- [Modello dati e parsing Akoma Ntoso](docs/modello-dati.md) — FRBR, ELI, schema interno e pipeline.
-- [Architettura](docs/architettura.md) — componenti e flusso RAG.
-- [Glossario](docs/glossario.md) — termini giuridici e tecnici.
+- [Fonti dei dati](knowledge/fonti/index.md) — fonti normative, formati e condizioni di riuso.
+- [Modello dati e parsing Akoma Ntoso](knowledge/modello-dati/index.md) — FRBR, ELI, schema interno e pipeline.
+- [Architettura](knowledge/architettura/index.md) — componenti e flusso RAG.
+- [Glossario](knowledge/glossario/index.md) — termini giuridici e tecnici.
 
 Per contribuire: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 

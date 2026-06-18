@@ -4,13 +4,13 @@ Grazie per l'interesse verso **Italian-OSS-Legal-Platform**! Il progetto è agli
 
 ## Come puoi aiutare
 
-In questa fase il focus è la **knowledge base** e la pipeline dei dati. Aree dove serve aiuto:
+In questa fase il focus è la **knowledge base** e la pipeline dei dati. La knowledge base è un bundle **[Open Knowledge Format (OKF)](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)** in [`knowledge/`](knowledge/): un concetto per file Markdown, con frontmatter YAML (`type` obbligatorio; `title`, `description`, `resource`, `tags`, `timestamp` opzionali) e `index.md` per ogni cartella. Aree dove serve aiuto:
 
-- **Fonti dati**: mappare e documentare fonti normative italiane aperte (vedi [`docs/fonti-dati.md`](docs/fonti-dati.md)).
-- **Parsing Akoma Ntoso / NIR**: definire e validare lo schema di estrazione (vedi [`docs/modello-dati.md`](docs/modello-dati.md)).
+- **Fonti dati**: mappare e documentare fonti normative italiane aperte (vedi [`knowledge/fonti/`](knowledge/fonti/index.md)).
+- **Parsing Akoma Ntoso / NIR**: definire e validare lo schema di estrazione (vedi [`knowledge/modello-dati/`](knowledge/modello-dati/index.md)).
 - **Qualità delle risposte**: proporre set di domande di test e criteri di valutazione delle citazioni.
-- **Documentazione**: migliorare, correggere e tradurre i documenti in `docs/`.
-- **Glossario**: arricchire il [`docs/glossario.md`](docs/glossario.md) con termini giuridici e tecnici.
+- **Documentazione**: migliorare, correggere e tradurre i concetti in `knowledge/`, rispettando il formato OKF (frontmatter YAML, un concetto per file).
+- **Glossario**: arricchire il [`knowledge/glossario/`](knowledge/glossario/index.md) con termini giuridici e tecnici (un file per termine).
 
 ## Flusso di lavoro
 
@@ -30,7 +30,7 @@ In questa fase il focus è la **knowledge base** e la pipeline dei dati. Aree do
 Ogni contributo deve rispettare i principi del progetto:
 
 - **Citazioni verificabili**: nessuna affermazione normativa senza riferimento alla fonte ufficiale.
-- **Rispetto delle licenze**: i dati si usano e si ridistribuiscono solo nei termini consentiti (vedi [`docs/fonti-dati.md`](docs/fonti-dati.md)).
+- **Rispetto delle licenze**: i dati si usano e si ridistribuiscono solo nei termini consentiti (vedi [`knowledge/fonti/`](knowledge/fonti/index.md)).
 - **Niente consulenza legale**: Italian-OSS-Legal-Platform è uno strumento informativo, non sostituisce un professionista.
 - **Privacy**: non inserire dati personali o documenti riservati nei test o nel repository.
 
