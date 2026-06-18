@@ -105,4 +105,16 @@ Se serve un nuovo `type`, proponilo in una issue prima di usarlo, così il vocab
 
 ---
 
+## 8. Validazione
+
+Prima di aprire una PR, esegui il validatore della knowledge base:
+
+```bash
+npm test            # oppure: node scripts/validate-knowledge-base.mjs
+```
+
+Lo script verifica frontmatter, vocabolario di `type`, slug dei file, struttura delle cartelle, collegamenti interni e copertura negli `index.md`. Termina con codice ≠ 0 se trova errori (con `--strict` fallisce anche sui warning) ed è pensato per girare anche in CI.
+
+---
+
 Per il flusso di contribuzione (issue, branch, commit) vedi [`CONTRIBUTING.md`](CONTRIBUTING.md).

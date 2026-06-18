@@ -18,6 +18,7 @@ In questa fase il focus è la **knowledge base** e la pipeline dei dati. La know
 2. Usa etichette chiare: `dati`, `documentazione`, `parsing`, `domanda`, `bug`.
 3. Per modifiche: **fork → branch → pull request** con descrizione di *cosa* e *perché*.
 4. Mantieni le PR piccole e focalizzate su un solo tema.
+5. Prima di aprire la PR, esegui `npm test` per validare la knowledge base (regole in [`AGENTS.md`](AGENTS.md)).
 
 ## Convenzioni
 
