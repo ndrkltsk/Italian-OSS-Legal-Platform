@@ -1,0 +1,19 @@
+{
+  "name": "italian-oss-legal-platform",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Piattaforma open source basata su AI per la legislazione italiana.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-knowledge-base.mjs",
+    "test:strict": "node scripts/validate-knowledge-base.mjs --strict",
+    "validate:kb": "node scripts/validate-knowledge-base.mjs",
+    "build:pdf": "node scripts/build-knowledge-pdf.mjs"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.15.0",
+    "marked": "^18.0.5",
+    "pdfkit": "^0.19.1"
+  }
+}
