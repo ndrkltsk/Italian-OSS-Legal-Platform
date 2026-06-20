@@ -22,6 +22,7 @@ Termini giuridici e tecnici ricorrenti nel progetto Magistra. Ogni termine è un
 - [Rubrica](/glossario/rubrica.md)
 - [Recepimento](/glossario/recepimento.md)
 - [Giurisprudenza](/glossario/giurisprudenza.md)
+- [GDPR](/glossario/gdpr.md)
 
 ## Standard e formati
 
@@ -34,9 +35,16 @@ Termini giuridici e tecnici ricorrenti nel progetto Magistra. Ogni termine è un
 ## Termini tecnici
 
 - [RAG (Retrieval-Augmented Generation)](/glossario/rag.md)
+- [RAG agentico](/glossario/rag-agentico.md)
 - [Embedding](/glossario/embedding.md)
 - [Ricerca semantica](/glossario/ricerca-semantica.md)
 - [Chunk](/glossario/chunk.md)
 - [Vector DB](/glossario/vector-db.md)
+- [Reranking](/glossario/reranking.md)
+- [Prompt](/glossario/prompt.md)
 - [Self-hosting](/glossario/self-hosting.md)
 - [Citazione verificabile](/glossario/citazione-verificabile.md)
+- [Groundedness (aderenza alle fonti)](/glossario/groundedness.md)
+- [Allucinazione](/glossario/allucinazione.md)
+- [Cifratura](/glossario/cifratura.md)
+- [Modifiche tracciate (tracked changes)](/glossario/tracked-changes.md)

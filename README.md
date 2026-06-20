@@ -84,6 +84,10 @@ La knowledge base del progetto è in [`knowledge/`](knowledge/), strutturata com
 - [Architettura](knowledge/architettura/index.md) — componenti e flusso RAG.
 - [Glossario](knowledge/glossario/index.md) — termini giuridici e tecnici.
 
+### Aprire la knowledge base in Obsidian
+
+La cartella [`knowledge/`](knowledge/) è anche un **vault [Obsidian](https://obsidian.md/)**: aprila come vault per esplorare i concetti e i loro collegamenti nella vista a grafo. La configurazione del vault è versionata in `knowledge/.obsidian/`, così chiunque cloni il repository ottiene la **stessa configurazione** (plugin, aspetto, impostazioni del grafo) senza doverla ricreare.
+
 Per contribuire: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Community

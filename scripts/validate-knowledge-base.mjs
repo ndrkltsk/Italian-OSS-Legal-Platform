@@ -63,10 +63,11 @@ function warn(file, msg, line) {
 
 // --- Utility ----------------------------------------------------------------
 
-/** Elenca ricorsivamente i file .md sotto `dir`. */
+/** Elenca ricorsivamente i file .md sotto `dir`, ignorando i file/cartelle nascosti. */
 function listMarkdown(dir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue; // ignora dotfile/dotdir (es. .obsidian)
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) out.push(...listMarkdown(full));
     else if (entry.isFile() && entry.name.endsWith('.md')) out.push(full);
@@ -74,10 +75,11 @@ function listMarkdown(dir) {
   return out;
 }
 
-/** Elenca ricorsivamente le directory sotto `dir`, includendo `dir`. */
+/** Elenca ricorsivamente le directory sotto `dir`, includendo `dir` e ignorando quelle nascoste. */
 function listDirs(dir) {
   const out = [dir];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue; // ignora dotdir (es. .obsidian)
     if (entry.isDirectory()) out.push(...listDirs(path.join(dir, entry.name)));
   }
   return out;

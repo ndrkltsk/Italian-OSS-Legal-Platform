@@ -19,10 +19,21 @@ Questa cartella descrive come Magistra rappresenta una norma italiana a partire 
 - [Struttura del documento AKN](/modello-dati/struttura-akn.md) — articolo e comma.
 - [Pipeline di trasformazione](/modello-dati/pipeline-trasformazione.md) — da Normattiva all'indice vettoriale.
 
-## Entità del modello dati interno
+## Entità del corpus normativo
 
 - [Norma](/modello-dati/norma.md) (Work)
 - [Versione](/modello-dati/versione.md) (Expression)
 - [Unità](/modello-dati/unita.md) (articolo / comma)
 - [Chunk](/modello-dati/chunk.md) (ricerca semantica)
 - [Riferimento](/modello-dati/riferimento.md) (cross-reference)
+
+## Entità del modello applicativo
+
+Distinte dal corpus pubblico: rappresentano il lavoro dell'utente sui documenti (vivono nel [database applicativo](/architettura/database-applicativo.md)). La versione OSS è single-utente: non c'è un'entità "utente" né account.
+
+- [Modello dati applicativo](/modello-dati/modello-applicativo.md) — panoramica e relazioni.
+- [Progetto](/modello-dati/progetto.md)
+- [Documento](/modello-dati/documento.md) (file dell'utente)
+- [Conversazione](/modello-dati/conversazione.md)
+- [Messaggio](/modello-dati/messaggio.md)
+- [Chiave API](/modello-dati/chiave-api.md)
