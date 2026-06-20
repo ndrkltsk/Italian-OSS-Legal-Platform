@@ -16,7 +16,7 @@ Bozza di architettura per Magistra. In questa fase serve a orientare le scelte; 
 flowchart TD
     Utente(["Utente"])
     FE["Frontend (Next.js)"]
-    BE["Backend / API (Node)<br/>orchestrazione RAG · autenticazione"]
+    BE["Backend / API (Node)<br/>orchestrazione RAG"]
     VDB[("Vector DB<br/>PostgreSQL + pgvector")]
     OS[("Object storage<br/>MinIO, S3-compat.<br/>documenti utente")]
     IDX["Indice normativo<br/>chunk + metadati ELI"]
@@ -38,13 +38,19 @@ flowchart TD
 - [Frontend (Next.js)](/architettura/frontend.md)
 - [Backend / API (Node)](/architettura/backend-api.md)
 - [Indice normativo + Vector DB](/architettura/indice-normativo.md)
+- [Database applicativo](/architettura/database-applicativo.md)
 - [Object storage (S3-compatibile)](/architettura/object-storage.md)
 - [Provider LLM (configurabile)](/architettura/provider-llm.md)
-- [Flusso di una domanda (RAG)](/architettura/flusso-rag.md)
+- [Gestione delle API key](/architettura/gestione-api-key.md)
+- [Conversione documenti](/architettura/conversione-documenti.md)
+- [Pianificazione delle query](/architettura/pianificazione-query.md)
+- [Flusso di una domanda (RAG agentico)](/architettura/flusso-rag.md)
+- [Deployment e self-hosting](/architettura/deployment.md)
 
 ## Principi architetturali
 
 - **Citazione prima di tutto**: nessuna risposta normativa senza fonte recuperata dall'indice.
+- **Single-utente**: questa versione OSS è pensata per una sola persona su un proprio computer/server; non gestisce account, login né multi-utenza (quelli sono previsti solo per la futura versione cloud gestita).
 - **Separazione dati/modello**: la qualità dipende dai dati e dal retrieval, non solo dall'LLM.
 - **Self-hosting possibile**: l'architettura deve poter girare interamente sotto il controllo dell'utente.
 - **Modularità**: provider LLM, storage e database intercambiabili.
