@@ -1,7 +1,7 @@
 ---
 type: Termine
 title: GDPR
-description: Regolamento UE 2016/679 sulla protezione dei dati personali; rilevante per i documenti caricati dagli utenti.
+description: Regolamento UE 2016/679 sulla protezione dei dati personali; rilevante per i documenti caricati dall'utente.
 resource: https://eur-lex.europa.eu/eli/reg/2016/679/oj
 tags: [glossario, privacy, gdpr]
 timestamp: 2026-06-20T00:00:00Z

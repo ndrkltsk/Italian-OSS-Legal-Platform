@@ -1,7 +1,7 @@
 ---
 type: Componente
 title: Database applicativo
-description: Database relazionale che conserva utenti, progetti, documenti, conversazioni e workflow, distinto dall'indice vettoriale del corpus normativo.
+description: Database relazionale che conserva progetti, documenti, conversazioni e workflow, distinto dall'indice vettoriale del corpus normativo.
 tags: [database, postgresql, modello-app]
 timestamp: 2026-06-20T00:00:00Z
 ---

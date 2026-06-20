@@ -8,7 +8,7 @@ timestamp: 2026-06-20T00:00:00Z
 
 # Privacy e dati personali
 
-I documenti caricati dagli utenti (contratti, atti, pareri) contengono spesso dati personali e informazioni riservate: il loro trattamento è un requisito di prodotto, non un dettaglio.
+I documenti caricati dall'utente (contratti, atti, pareri) contengono spesso dati personali e informazioni riservate: il loro trattamento è un requisito di prodotto, non un dettaglio.
 
 ## Principi
 
