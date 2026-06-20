@@ -8,7 +8,7 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Fonti dei dati
 
-Questa cartella mappa le fonti del diritto utilizzabili da Italian-OSS-Legal-Platform, i formati disponibili e le condizioni di riuso. È il riferimento per chiunque lavori alla pipeline di ingest.
+Questa cartella mappa le fonti del diritto utilizzabili da Magistra, i formati disponibili e le condizioni di riuso. È il riferimento per chiunque lavori alla pipeline di ingest.
 
 ## Concetti
 

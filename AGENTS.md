@@ -1,4 +1,4 @@
-# AGENTS.md — Italian-OSS-Legal-Platform
+# AGENTS.md — Magistra
 
 Istruzioni per chiunque (persone o agenti AI) scriva nella **knowledge base** del progetto.
 

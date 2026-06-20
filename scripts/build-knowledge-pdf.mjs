@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Genera un singolo PDF con l'intera knowledge base OKF di
-// Italian-OSS-Legal-Platform.
+// Magistra.
 //
 // - Include TUTTI i file .md del bundle `knowledge/`.
 // - I link interni `/cartella/file.md` diventano salti interni al PDF
@@ -264,8 +264,8 @@ function build() {
     bufferPages: true,
     autoFirstPage: false,
     info: {
-      Title: 'Italian-OSS-Legal-Platform — Knowledge base',
-      Author: 'Italian-OSS-Legal-Platform',
+      Title: 'Magistra — Knowledge base',
+      Author: 'Magistra',
       Subject: 'Bundle Open Knowledge Format (OKF)',
     },
   });
@@ -508,7 +508,7 @@ function build() {
   // ---- Copertina ----
   doc.moveDown(6);
   doc.font(FONT.bold).fontSize(30).fillColor(COLORS.heading)
-    .text('Italian-OSS-Legal-Platform', left, doc.y, { width: contentW });
+    .text('Magistra', left, doc.y, { width: contentW });
   doc.moveDown(0.4);
   doc.font(FONT.body).fontSize(14).fillColor(COLORS.text)
     .text('Knowledge base — bundle Open Knowledge Format (OKF)', { width: contentW });
@@ -568,7 +568,7 @@ function build() {
     doc.page.margins.bottom = 0;
     doc.font(FONT.body).fontSize(SIZE.small).fillColor(COLORS.muted);
     doc.text(
-      `Italian-OSS-Legal-Platform · Knowledge base OKF · Pag. ${i + 1}/${range.count}`,
+      `Magistra · Knowledge base OKF · Pag. ${i + 1}/${range.count}`,
       left, doc.page.height - 44,
       { width: contentW, align: 'center', lineBreak: false },
     );

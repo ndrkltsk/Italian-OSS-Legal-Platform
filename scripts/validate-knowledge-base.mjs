@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Validatore della knowledge base OKF di Italian-OSS-Legal-Platform.
+// Validatore della knowledge base OKF di Magistra.
 //
 // Verifica che il bundle in `knowledge/` rispetti le regole di AGENTS.md:
 // frontmatter YAML, vocabolario di `type`, slug dei file, struttura delle

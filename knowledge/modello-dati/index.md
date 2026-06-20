@@ -8,7 +8,7 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Modello dati e parsing Akoma Ntoso
 
-Questa cartella descrive come Italian-OSS-Legal-Platform rappresenta una norma italiana a partire dai dati di Normattiva ([Akoma Ntoso](/glossario/akoma-ntoso.md) / [ELI](/glossario/eli.md)) e come la trasforma in unità interrogabili per la ricerca semantica e le citazioni.
+Questa cartella descrive come Magistra rappresenta una norma italiana a partire dai dati di Normattiva ([Akoma Ntoso](/glossario/akoma-ntoso.md) / [ELI](/glossario/eli.md)) e come la trasforma in unità interrogabili per la ricerca semantica e le citazioni.
 
 > È una **bozza concettuale**: lo schema serve a ragionare sui dati, non è ancora un'implementazione.
 
