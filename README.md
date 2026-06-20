@@ -1,4 +1,4 @@
-# Italian-OSS-Legal-Platform
+# Magistra
 
 > Piattaforma open source basata su AI per la legislazione italiana.
 
@@ -6,7 +6,7 @@ L'obiettivo è offrire un assistente legale AI con chat, ricerca normativa e ana
 
 Questo prodotto è ideato, gestito e costruito dalla community **[Italian Builders](https://italianbuilders.co)** — trovaci su [X (@italianbldrs)](https://x.com/italianbldrs) e su [italianbuilders.co](https://italianbuilders.co).
 
-⚠️ **Disclaimer**: Italian-OSS-Legal-Platform è uno strumento di supporto informativo. Non fornisce consulenza legale e non sostituisce il parere di un avvocato o di un professionista abilitato.
+⚠️ **Disclaimer**: Magistra è uno strumento di supporto informativo. Non fornisce consulenza legale e non sostituisce il parere di un avvocato o di un professionista abilitato.
 
 ---
 
@@ -88,7 +88,7 @@ Per contribuire: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Community
 
-Italian-OSS-Legal-Platform è un progetto **interamente ideato, gestito e costruito dalla community Italian Builders**, un collettivo di builder italiani che realizza prodotti open source.
+Magistra è un progetto **interamente ideato, gestito e costruito dalla community Italian Builders**, un collettivo di builder italiani che realizza prodotti open source.
 
 - **Sito**: [italianbuilders.co](https://italianbuilders.co)
 - **X / Twitter**: [@italianbldrs](https://x.com/italianbldrs)

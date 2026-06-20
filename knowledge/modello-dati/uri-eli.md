@@ -9,7 +9,7 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Identificazione: URI ELI
 
-Ogni norma è identificata da una **URI [ELI](/glossario/eli.md)** (European Legislation Identifier) permanente. Italian-OSS-Legal-Platform usa l'ELI come **chiave primaria stabile** per collegare versioni, citazioni e riferimenti incrociati.
+Ogni norma è identificata da una **URI [ELI](/glossario/eli.md)** (European Legislation Identifier) permanente. Magistra usa l'ELI come **chiave primaria stabile** per collegare versioni, citazioni e riferimenti incrociati.
 
 Esempio concettuale di pattern ELI:
 

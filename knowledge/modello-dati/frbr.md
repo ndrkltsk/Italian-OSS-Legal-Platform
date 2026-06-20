@@ -19,4 +19,4 @@ timestamp: 2026-06-18T00:00:00Z
 
 Questi livelli sono dichiarati nel blocco `<meta>` → `<identification>` tramite `<FRBRWork>`, `<FRBRExpression>`, `<FRBRManifestation>`, `<FRBRItem>`.
 
-Questo modello è il motivo per cui Italian-OSS-Legal-Platform può distinguere "il testo vigente oggi" da "il testo in vigore nel 2015". Le entità interne [Norma](/modello-dati/norma.md) e [Versione](/modello-dati/versione.md) mappano rispettivamente Work ed Expression.
+Questo modello è il motivo per cui Magistra può distinguere "il testo vigente oggi" da "il testo in vigore nel 2015". Le entità interne [Norma](/modello-dati/norma.md) e [Versione](/modello-dati/versione.md) mappano rispettivamente Work ed Expression.

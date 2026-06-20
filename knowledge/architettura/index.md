@@ -8,7 +8,7 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Architettura
 
-Bozza di architettura per Italian-OSS-Legal-Platform. In questa fase serve a orientare le scelte; non è ancora un'implementazione.
+Bozza di architettura per Magistra. In questa fase serve a orientare le scelte; non è ancora un'implementazione.
 
 ## Vista d'insieme
 

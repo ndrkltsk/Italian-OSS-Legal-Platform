@@ -15,7 +15,7 @@ La fonte principale per la legislazione statale italiana (leggi, decreti legge, 
 
 ## Formati disponibili
 
-| Formato | Descrizione | Uso in Italian-OSS-Legal-Platform |
+| Formato | Descrizione | Uso in Magistra |
 |---|---|---|
 | **[Akoma Ntoso (LegalDOCML)](/glossario/akoma-ntoso.md)** | XML giuridico strutturato, standard OASIS | Fonte canonica per il parsing |
 | **[XML NIR](/glossario/xml-nir.md)** (NormeInRete) | Standard XML AgID precedente | Fallback / atti storici |

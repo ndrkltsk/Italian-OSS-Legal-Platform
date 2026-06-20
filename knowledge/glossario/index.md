@@ -8,7 +8,7 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Glossario
 
-Termini giuridici e tecnici ricorrenti nel progetto Italian-OSS-Legal-Platform. Ogni termine è un concetto OKF autonomo, così da poter essere referenziato dagli altri documenti del bundle.
+Termini giuridici e tecnici ricorrenti nel progetto Magistra. Ogni termine è un concetto OKF autonomo, così da poter essere referenziato dagli altri documenti del bundle.
 
 ## Termini giuridici
 

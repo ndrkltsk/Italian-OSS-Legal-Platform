@@ -1,6 +1,6 @@
-# Contribuire a Italian-OSS-Legal-Platform
+# Contribuire a Magistra
 
-Grazie per l'interesse verso **Italian-OSS-Legal-Platform**! Il progetto è agli inizi e ogni contributo è prezioso: dati, parsing, valutazione qualità, documentazione e (più avanti) codice.
+Grazie per l'interesse verso **Magistra**! Il progetto è agli inizi e ogni contributo è prezioso: dati, parsing, valutazione qualità, documentazione e (più avanti) codice.
 
 Il progetto è ideato, gestito e costruito dalla community **[Italian Builders](https://italianbuilders.co)** ([@italianbldrs](https://x.com/italianbldrs)): unisciti a noi.
 
@@ -34,7 +34,7 @@ Ogni contributo deve rispettare i principi del progetto:
 
 - **Citazioni verificabili**: nessuna affermazione normativa senza riferimento alla fonte ufficiale.
 - **Rispetto delle licenze**: i dati si usano e si ridistribuiscono solo nei termini consentiti (vedi [`knowledge/fonti/`](knowledge/fonti/index.md)).
-- **Niente consulenza legale**: Italian-OSS-Legal-Platform è uno strumento informativo, non sostituisce un professionista.
+- **Niente consulenza legale**: Magistra è uno strumento informativo, non sostituisce un professionista.
 - **Privacy**: non inserire dati personali o documenti riservati nei test o nel repository.
 
 ## Codice di condotta

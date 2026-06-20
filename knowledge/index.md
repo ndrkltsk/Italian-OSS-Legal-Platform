@@ -1,13 +1,13 @@
 ---
 type: Bundle di Conoscenza
-title: Knowledge base Italian-OSS-Legal-Platform
+title: Knowledge base Magistra
 description: Bundle OKF (Open Knowledge Format v0.1) che raccoglie fonti dati, modello dati, architettura e glossario del progetto.
-resource: https://github.com/ndrkltsk/Italian-OSS-Legal-Platform
+resource: https://github.com/Italian-Builders-Org/Italian-OSS-Legal-Platform
 tags: [okf, knowledge-base, diritto-italiano]
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Knowledge base — Italian-OSS-Legal-Platform
+# Knowledge base — Magistra
 
 Questa cartella è un **bundle [Open Knowledge Format (OKF) v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)**: una directory di file Markdown con frontmatter YAML, leggibile da persone e agenti AI senza alcun SDK o piattaforma proprietaria.
 
