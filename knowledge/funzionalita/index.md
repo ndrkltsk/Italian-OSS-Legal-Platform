@@ -1,9 +1,9 @@
 ---
 type: Indice
 title: Funzionalità
-description: Le capacità che la piattaforma offre all'utente — assistente, ricerca, analisi e redazione documenti, revisione tabellare, workflow e progetti.
+description: Le capacità che la piattaforma offre all'utente — assistente, ragionamento strategico, calcolo di pene e termini, ricerca, analisi e redazione documenti, revisione tabellare, workflow e progetti.
 tags: [funzionalita, prodotto, assistente]
-timestamp: 2026-06-20T00:00:00Z
+timestamp: 2026-06-25T00:00:00Z
 ---
 
 # Funzionalità
@@ -17,7 +17,7 @@ Questa cartella descrive **cosa fa** la piattaforma dal punto di vista dell'uten
 
 - [Assistente legale (chat)](/funzionalita/assistente-legale.md) — dialogo in linguaggio naturale con risposte ancorate alle fonti.
 - [Ragionamento strategico](/funzionalita/ragionamento-strategico.md) — opzioni e scenari ragionati che incrociano norme, orientamenti di legittimità e calcoli. È il principale elemento di differenziazione.
-- [Calcolo di pene e termini](/funzionalita/calcolo-pena-termini.md) — computo esatto e regolato (continuazione, prescrizione, impugnazioni) a supporto del ragionamento strategico.
+- [Calcolo di pene e termini](/funzionalita/calcolo-pena-termini.md) — computo regolato di termini e limiti di pena (continuazione, prescrizione, impugnazioni) a supporto del ragionamento strategico.
 - [Ricerca normativa](/funzionalita/ricerca-normativa.md) — ricerca semantica, per parola chiave e **per fattispecie** sul corpus.
 - [Confronto versioni](/funzionalita/confronto-versioni.md) — navigazione del testo vigente e delle versioni storiche.
 - [Riferimenti incrociati](/funzionalita/riferimenti-incrociati.md) — collegamenti automatici tra norme, codici e diritto UE.

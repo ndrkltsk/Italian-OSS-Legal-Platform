@@ -11,8 +11,8 @@ timestamp: 2026-06-25T00:00:00Z
 
 Sentenze e orientamenti, dove disponibili in formato aperto:
 
-- **Corte di Cassazione** — banca dati di **legittimità** (accesso e riuso variabili)
-- **Corte Costituzionale** — <https://www.cortecostituzionale.it/>
+- **Corte di Cassazione** — giurisprudenza di **legittimità**; il CED rende pubblica la giurisprudenza recente tramite il servizio SentenzeWeb/ItalGiure (<https://www.italgiure.giustizia.it/>), con accesso e riuso variabili.
+- **Corte Costituzionale** — portale istituzionale (<https://www.cortecostituzionale.it/>) e dati aperti con endpoint SPARQL su <https://dati.cortecostituzionale.it/>.
 
 ## Perché è una fondazione, non un'aggiunta
 

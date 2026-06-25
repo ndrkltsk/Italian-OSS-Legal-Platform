@@ -15,7 +15,7 @@ Magistra è distribuita come **app desktop installabile**, non come stack di ser
 ## App desktop
 
 - È un **bundle che contiene tutto**: UI, logica di business e dati. Non un semplice client.
-- Il [database](/architettura/database-applicativo.md) e l'[indice normativo](/architettura/indice-normativo.md) sono un'istanza **embedded** (PGlite, Postgres in WASM con `pgvector`); i documenti dell'utente vanno sul **filesystem locale** (vedi [object storage](/architettura/object-storage.md)).
+- Il [database](/architettura/database-applicativo.md) e l'[indice normativo](/architettura/indice-normativo.md) sono un'istanza **embedded** (PGlite, Postgres in WASM con `pgvector`); i documenti dell'utente vanno sul **filesystem locale** (vedi [archiviazione locale](/architettura/archiviazione-documenti.md)).
 - I dati restano sulla macchina dell'utente, senza il costo tecnico di gestire server o servizi.
 - Strumento candidato per il packaging: **Electron**, coerente con lo [stack TypeScript-first](/architettura/stack-tecnologico.md) (l'intero bundle resta in TS).
 

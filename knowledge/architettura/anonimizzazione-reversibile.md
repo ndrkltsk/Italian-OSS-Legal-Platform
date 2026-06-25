@@ -26,7 +26,7 @@ Tutto ciò che è sensibile, insieme alla mappatura, resta in locale; al provide
 - **[Microsoft Presidio](https://microsoft.github.io/presidio/)** (licenza MIT): rilevamento, anonimizzazione e de-anonimizzazione; estensibile con *recognizer* personalizzati; supporta l'**italiano** (modello spaCy `it_core_news_md`) e può essere adattato alle entità del dominio legale italiano (codice fiscale, P.IVA, estremi di causa).
 - **[LLM Guard](https://llm-guard.com/)** (Protect AI, OSS): costruito su Presidio, fornisce gli scanner *Anonymize*/*Deanonymize* e un **Vault** per la mappatura reversibile — esattamente il pattern descritto.
 
-> Nota stack: questi strumenti sono in Python; eseguirli come **processo/servizio locale** è coerente con l'architettura, che già prevede sottoprocessi esterni (vedi [stack tecnologico](/architettura/stack-tecnologico.md)). Esistono anche librerie di tokenizzazione reversibile compatibili con Presidio in TypeScript. Il vincolo è che tutto giri **in locale**.
+> Nota stack: questi strumenti sono in Python; eseguirli come **processo/servizio locale** è coerente con l'architettura, che già prevede sottoprocessi esterni (vedi [stack tecnologico](/architettura/stack-tecnologico.md)). In alternativa esistono librerie JS/TS di rilevamento e pseudonimizzazione di PII, in genere meno mature di Presidio. Il vincolo è che tutto giri **in locale**.
 
 ## Limiti e cautele
 

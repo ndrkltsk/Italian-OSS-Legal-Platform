@@ -3,7 +3,7 @@ type: Processo
 title: Pipeline di trasformazione
 description: Dal download AKN di Normattiva fino all'indice vettoriale e al grafo dei riferimenti, preservando i metadati di citazione.
 tags: [pipeline, ingest, chunking, embedding]
-timestamp: 2026-06-18T00:00:00Z
+timestamp: 2026-06-25T00:00:00Z
 ---
 
 # Pipeline di trasformazione
@@ -24,7 +24,7 @@ flowchart TD
     T --> C
     C --> E
     E --> IV
-    E --> R
+    T --> R
     R --> G
 ```
 

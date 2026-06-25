@@ -27,7 +27,7 @@ La scelta è guidata dalla natura **open source** del progetto:
 Il default è TypeScript, ma se emergerà un requisito **concreto** che rende un altro runtime (Python, Rust, …) nettamente più adatto per un componente specifico, quel componente potrà essere introdotto con un **confine chiaro** rispetto al resto.
 La scelta del linguaggio del backend resta inoltre **reversibile**: conta di più documentare bene i confini tra API, retrieval e ingest che imporre un unico runtime per comodità.
 
-Va anche riconosciuto che lo stack non è "puro" per natura: alcune operazioni si appoggiano comunque a processi esterni, ad esempio LibreOffice headless e un motore Chromium per la [conversione documenti](/architettura/conversione-documenti.md). Questi sottoprocessi e servizi esterni sono parte legittima dell'architettura.
+Va anche riconosciuto che lo stack non è "puro" per natura: alcune operazioni si appoggiano comunque a processi esterni, ad esempio LibreOffice headless per la [conversione documenti](/architettura/conversione-documenti.md). Questi sottoprocessi locali sono parte legittima dell'architettura.
 
 ## Cosa NON dipende dal linguaggio
 
