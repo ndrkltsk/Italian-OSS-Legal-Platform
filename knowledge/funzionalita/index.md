@@ -3,7 +3,7 @@ type: Indice
 title: Funzionalità
 description: Le capacità che la piattaforma offre all'utente — assistente, ragionamento strategico, calcolo di pene e termini, ricerca, analisi e redazione documenti, revisione tabellare, workflow e progetti.
 tags: [funzionalita, prodotto, assistente]
-timestamp: 2026-06-25T00:00:00Z
+timestamp: 2026-06-27T00:00:00Z
 ---
 
 # Funzionalità
@@ -11,7 +11,7 @@ timestamp: 2026-06-25T00:00:00Z
 Questa cartella descrive **cosa fa** la piattaforma dal punto di vista dell'utente: ogni funzionalità è un concetto autonomo, indipendente dall'implementazione.
 È il riferimento per il documento di specifiche.
 
-> Bozza concettuale. La selezione di ciò che entra nella prima release è in [Ambito MVP](../requisiti/mvp.md).
+> La selezione di ciò che entra nella prima release è in [Ambito MVP](../requisiti/mvp.md). **Nell'MVP**: [assistente legale](./assistente-legale.md), [ricerca normativa](./ricerca-normativa.md), [confronto versioni](./confronto-versioni.md), [verifica delle citazioni giurisprudenziali](./verifica-citazioni-giurisprudenza.md) (lookup) e [analisi di documenti](./analisi-documenti.md). Le altre funzionalità sono rinviate alle fasi successive.
 
 ## Assistente e conoscenza normativa
 
