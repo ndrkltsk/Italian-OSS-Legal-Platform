@@ -15,7 +15,7 @@ Bozza di architettura per Magistra. In questa fase serve a orientare le scelte; 
 ```mermaid
 flowchart TD
     Utente(["Utente"])
-    FE["Frontend (Next.js)"]
+    FE["Frontend (React + Vite)"]
     BE["Backend / API (Node)<br/>orchestrazione RAG"]
     DB[("Database applicativo<br/>PGlite (embedded)")]
     VDB[("Indice del corpus<br/>LanceDB (embedded)")]
@@ -40,7 +40,7 @@ L'ingest pesante del corpus non gira insieme all'assistente: è un job **batch s
 ## Concetti
 
 - [Stack tecnologico (TypeScript-first)](./stack-tecnologico.md)
-- [Frontend (Next.js)](./frontend.md)
+- [Frontend (React + Vite)](./frontend.md)
 - [Backend / API (Node)](./backend-api.md)
 - [Worker / runtime dei job](./worker-ingest.md)
 - [Indice normativo + Vector DB](./indice-normativo.md)
@@ -53,6 +53,7 @@ L'ingest pesante del corpus non gira insieme all'assistente: è un job **batch s
 - [Pianificazione delle query](./pianificazione-query.md)
 - [Flusso di una domanda (RAG agentico)](./flusso-rag.md)
 - [Deployment](./deployment.md)
+- [Packaging e distribuzione desktop](./packaging-distribuzione.md)
 
 ## Principi architetturali
 
