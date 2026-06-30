@@ -3,7 +3,7 @@ type: Concetto
 title: Stack tecnologico
 description: Scelta di uno stack TypeScript-first end-to-end per Magistra, con le librerie e il runtime di base, i componenti non-TS e i criteri per l'escape hatch.
 tags: [stack, typescript, oss, architettura]
-timestamp: 2026-06-30T00:00:00Z
+timestamp: 2026-07-01T00:00:00Z
 ---
 
 # Stack tecnologico
@@ -35,6 +35,8 @@ Scelte di base confermate per l'MVP, coerenti con i principi qui descritti (defa
 | Orchestrazione RAG | **Pipeline interna a Magistra** | Il [flusso RAG agentico](./flusso-rag.md) (pianificazione query, reranking, fallback solo da fonti supportate, citazioni verificabili) è specifico del dominio: la pipeline è codice nostro, senza framework di orchestrazione come dipendenza core, per controllarne ogni passo e non ereditarne astrazioni e churn. |
 | Database applicativo | **PGlite (Postgres in WASM)** | Motore relazionale embedded per i dati dell'app: piccoli dati transazionali, zero dipendenze native. Vedi [database applicativo](./database-applicativo.md). |
 | Indice del corpus | **LanceDB** (motore vettoriale embedded nativo) | Disk-based e con prefiltro nativo per metadato: scala il corpus normativo oltre i limiti di `pgvector` in WASM. Vedi [indice normativo](./indice-normativo.md). |
+| Build frontend | **Vite** | Build tool del renderer React: bundle statico, dev server con HMR, nessun runtime server lato frontend (la UI parla col backend via IPC). Vedi [frontend](./frontend.md). |
+| Packaging desktop | **electron-builder + electron-updater** | Genera gli installer per OS, gestisce firma cross-platform e auto-update con un'unica configurazione; impacchetta il renderer già buildato con Vite. Vedi [packaging e distribuzione](./packaging-distribuzione.md). |
 
 ## Confini dietro interfacce
 
@@ -77,7 +79,7 @@ Allo stesso modo, l'**igiene delle dipendenze** è una disciplina trasversale e 
 
 ## Componenti e relativo linguaggio
 
-- [Frontend](./frontend.md): TypeScript / Next.js.
+- [Frontend](./frontend.md): TypeScript / React (Vite); componenti UI in una libreria separata e portabile.
 - [Backend / API](./backend-api.md): TypeScript / Node, esposto via IPC (non un server HTTP).
 - [Worker di ingest](./worker-ingest.md): TypeScript / Node, processo separato dal backend.
 - [Database applicativo](./database-applicativo.md): PGlite embedded (Postgres in WASM).
